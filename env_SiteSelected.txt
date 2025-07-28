@@ -1,0 +1,9 @@
+# Azure App Registration Configuration Template
+# Display name: Azure SharePoint Test With Phyton Sites.Selected
+AZURE_CLIENT_ID=your_client_id_here
+AZURE_CLIENT_SECRET=your_client_secret_here
+AZURE_TENANT_ID=your_tenant_id_here
+
+# SharePoint Configuration
+SHAREPOINT_SITE_URL=https://yourtenant.sharepoint.com/sites/yoursite
+SHAREPOINT_TENANT_NAME=yourtenant 
