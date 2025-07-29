@@ -3,8 +3,10 @@ from dotenv import load_dotenv
 
 # Load environment variables from env_SiteSelected_example.txt file (with actual credentials)
 # For production, use env_SiteSelected.txt as template
-load_dotenv('env_SiteSelected_example.txt')
+#load_dotenv('env_SiteSelected_example.txt')
 #load_dotenv('env_example.txt')
+load_dotenv('env_SiteSelected.txt')
+
 
 class Config:
     """Configuration class for Azure App Registration and SharePoint settings"""
